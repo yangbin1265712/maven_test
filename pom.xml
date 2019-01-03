@@ -13,4 +13,18 @@
             <version>3.8.1</version>
          </dependency>
       </dependencies>  
+    <distributionManagement>  
+        <repository>  
+            <id>archforce_releases</id>  
+            <url>  
+             	http://10.0.1.242:8081/repository/maven-releases/ 
+            </url>  
+        </repository>  
+        <snapshotRepository>  
+            <id>archforce_snapshots</id>  
+            <url>  
+            	http://10.0.1.242:8081/repository/maven-snapshots/  
+	    </url>  
+        </snapshotRepository>  
+    </distributionManagement>  
 </project>
