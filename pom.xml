@@ -2,7 +2,7 @@
       <modelVersion>4.0.0</modelVersion>
       <groupId>com.companyname.projectgroup</groupId>
       <artifactId>project</artifactId>
-      <version>1.1.18-SNAPSHOT</version>
+      <version>3.1.2</version>
 
       <dependencies>
          <dependency>
