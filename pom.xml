@@ -3,7 +3,9 @@
       <groupId>com.companyname.projectgroup</groupId>
       <artifactId>project</artifactId>
       <version>3.2.1</version>
-
+      
+      <!-- test master branch -->
+      
       <dependencies>
          <dependency>
             <groupId>junit</groupId>
