@@ -3,7 +3,7 @@
       <groupId>com.companyname.projectgroup</groupId>
       <artifactId>project</artifactId>
       <version>3.2.1</version>
-<!-- test branch: dev -->
+<!-- test branch: dev again-->
       <dependencies>
          <dependency>
             <groupId>junit</groupId>
