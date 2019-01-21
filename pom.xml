@@ -28,17 +28,19 @@
     </distributionManagement>  
 	<build>
 		<!-- <finalName>${finalName}_install</finalName> -->
-		<plugins>
-			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.3.0.603</version>
-			</plugin>
-		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.6.0.1398</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 
 	</build>
 	
-	    <scm>  
+	<scm>  
         <connection>scm:git:https://github.com/yangbin1265712/maven_test</connection>  
         <developerConnection>scm:git:https://github.com/yangbin1265712/maven_test</developerConnection>  
         <url>scm:git:https://github.com/yangbin1265712/maven_test</url>  
