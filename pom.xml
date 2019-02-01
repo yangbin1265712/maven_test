@@ -1,48 +1,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <modelVersion>4.0.0</modelVersion>
+
       <groupId>com.companyname.test_parent</groupId>
       <artifactId>parent</artifactId>
       <version>1.0.0</version>
+
 <!-- test branch: dev again-->
       <dependencies>
          <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+			<groupId>com.companyname.projectgroup</groupId>
+			<artifactId>commons</artifactId>
+            <version>1.0.0</version>
          </dependency>
       </dependencies>  
-    <distributionManagement>  
-        <repository>  
-            <id>archforce_releases</id>  
-            <url>  
-             	${nexus-release-url}
-            </url>  
-        </repository>  
-        <snapshotRepository>  
-            <id>archforce_snapshots</id>  
-            <url>  
-            	<!-- http://10.0.1.242:8081/repository/maven-snapshots/   -->
-				${nexus-snapshot-url}
-			</url>  
-        </snapshotRepository>  
-    </distributionManagement>  
-	<build>
-		<!-- <finalName>${finalName}_install</finalName> -->
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.sonarsource.scanner.maven</groupId>
-					<artifactId>sonar-maven-plugin</artifactId>
-					<version>3.6.0.1398</version>
-				</plugin>
-			</plugins>
-		</pluginManagement>
 
-	</build>
 	
 	<scm>  
         <connection>scm:git:https://github.com/yangbin1265712/maven_test</connection>  
         <developerConnection>scm:git:https://github.com/yangbin1265712/maven_test</developerConnection>  
         <url>scm:git:https://github.com/yangbin1265712/maven_test</url>  
+		<tag>HEAD</tag>
     </scm> 
 </project>
