@@ -9,6 +9,7 @@
 	
 	<groupId>com.companyname.projectgroup</groupId>
     <artifactId>project</artifactId>
+	<version>11.01.0</version>
 
 <!-- test branch: dev again-->
       <dependencies>
